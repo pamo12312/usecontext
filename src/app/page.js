@@ -33,6 +33,9 @@ export default function Home() {
         setSelectedPlanet(planet);
     };
 
+
+
+
     return (
         <div>
             <h1>Informace o planetě {selectedPlanet.name}</h1>
